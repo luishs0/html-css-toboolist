@@ -6,15 +6,22 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #f6f8f9;
 }
 
+
 /* HEADER */
+header{
+    margin-bottom: 3%;
+    background-color: white;
+}
+
 .container-header{
-    height: 15vh;
+    height: 11vh;
     width: 90%;
     margin: auto;
     background-color: white;
-    line-height: 15vh;
+    line-height: 11vh;
 }
 
 .container-header span{
@@ -29,3 +36,77 @@ body{
 }
 /* /HEADER */
 
+/* MAIN */
+main{
+    background-color: #f6f8f9;
+}
+
+.container-main{
+    width: 60%;
+    margin: auto;
+    background-color: white;
+    border-radius: 1.5%;
+}
+
+.header-main{
+    padding: 0.6em 2.2em;
+}
+
+.header-main button{
+    margin-right: 0.25%;
+    padding: 0.5em;
+    font-size: 0.8rem;
+    border-color: #e8f1f3ac;
+    border-radius: 5%;
+}
+
+#button1{
+    color: white;
+    background-color: #46adf1;
+}
+
+#button2{
+    color: grey;
+    background-color: white;
+}
+
+hr{
+    border-color: #e8f1f341;
+}
+
+/* LIST */
+ul{
+    list-style-type: none;
+}
+
+.main-list{
+    margin-left: 2%;
+}
+
+li{
+    margin-top: 15px;
+}
+
+.main-li{
+    margin-top: 40px;
+}
+
+.label{
+    font-size: 0.7rem;
+    background-color: silver;
+    padding: 0.5em;
+}
+
+.check{
+    color: green;
+    border-radius: 50%;
+    border: 1px solid green;
+}
+
+.cross{
+    color: red;
+    border-radius: 50%;
+    border: 1px solid red;
+}
+
+/* /LIST */
