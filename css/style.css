@@ -52,12 +52,18 @@ main{
     padding: 0.6em 2.2em;
 }
 
+.body-main{
+    padding-bottom: 45px;
+}
+
+/* BUTTON */
 .header-main button{
     margin-right: 0.25%;
     padding: 0.5em;
     font-size: 0.8rem;
     border-color: #e8f1f3ac;
-    border-radius: 5%;
+    border-radius: 5px;
+    
 }
 
 #button1{
@@ -69,6 +75,7 @@ main{
     color: grey;
     background-color: white;
 }
+/* /BUTTON */
 
 hr{
     border-color: #e8f1f341;
@@ -90,23 +97,61 @@ li{
 .main-li{
     margin-top: 40px;
 }
+/* /LIST */
 
+/* LABEL */
 .label{
     font-size: 0.7rem;
-    background-color: silver;
+    color: white;
     padding: 0.5em;
+    border-radius: 12px;
 }
+
+.label1{
+    background-color: #46adf1;
+}
+
+.label2{
+    background-color: #9c72e4;
+}
+
+.label3{
+    background-color: #64c0a9;
+}
+
+.label4{
+    background-color: #f29e33;
+}
+
+.label5{
+    background-color: #d763a1;
+}
+
+.label6{
+    background-color: #b0c925;
+}
+/* /LABEL */
 
 .check{
     color: green;
     border-radius: 50%;
     border: 1px solid green;
+    text-align: center;
+    line-height: 1.4rem;
+    display: inline-block;
+    width: 1.4rem;
+    height: 1.4rem;
 }
 
 .cross{
     color: red;
     border-radius: 50%;
     border: 1px solid red;
+    text-align: center;
+    line-height: 1.4rem;
+    display: inline-block;
+    width: 1.4rem;
+    height: 1.4rem;
 }
 
-/* /LIST */
+/* /MAIN */
